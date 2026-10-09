@@ -1,4 +1,10 @@
-// The application source lives in the workspace-level `src` folder.
-// Keep this Vite entry point pointed at it so `npm run dev` serves the
-// Learning & Research Lab rather than the starter Vite screen.
-import '../../src/main.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

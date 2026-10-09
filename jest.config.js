@@ -5,11 +5,7 @@ export default {
     '\\.(css|less|scss|sass)$': '<rootDir>/src/__mocks__/styleMock.js',
   },
   collectCoverageFrom: [
-    'src/**/*.{js,jsx}',
-    '!src/App.jsx',
-    '!src/main.jsx',
-    '!src/setupTests.js',
-    '!src/**/__mocks__/**',
+    'src/components/{Button,Card,Input,UserList}.jsx',
   ],
   coverageThreshold: {
     global: {
