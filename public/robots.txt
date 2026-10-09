@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ai-learning-research-lab-d1g6.vercel.app/sitemap.xml
